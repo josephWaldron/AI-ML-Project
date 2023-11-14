@@ -1,10 +1,13 @@
-# Bird Classification with AI/ML Project
+# Bird Classification with AI/ML Project 🐦🔍🤖
 
-Welcome to the Bird Classification with AI/ML Project! This project focuses on classifying images of birds from two different datasets: "100 Bird Species" and "200 Bird Species with 11,788 Images." Additionally, we will build a web application to showcase our findings and demonstrate the classification results.
+## Team Members
+* Joseph Waldron
+* Gabriel Serrano
+* Hashir Mohyuddin
 
 ## Project Overview
 
-Bird classification is a fascinating application of Artificial Intelligence (AI) and Machine Learning (ML). It involves training a model to recognize and classify various bird species based on their images. This project leverages two extensive datasets to create a robust bird classification system.
+Bird classification is a fascinating application of Artificial Intelligence (AI) and Machine Learning (ML). It involves training a model to recognize and classify various bird species based on their images. This project leverages two extensive datasets to create a robust bird classification system. We will evaluate the performance of various models and build a web application to showcase our findings.
 
 ## Datasets
 
