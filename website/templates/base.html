@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        {{ site_title }}
+    </title>
+</head>
+
+<body>
+    <!--Content that will remain consistent across all pages that extends this base template.-->
+    <h1>
+    Welcome to {{ site_title }} <!--Example of reading constant value from backend-->
+    </h1>
+{% block content %}
+    <!--Space where other templates can be inserted into-->
+{% endblock %}
+
+</body>
+</html>
