@@ -1,6 +1,9 @@
+import os.path
+
 from flask import Flask, render_template
 
-app = Flask(__name__)
+template_dir = os.path.abspath("website/templates")
+app = Flask(__name__, template_folder=template_dir)
 
 # Example of defining a route and acceptable methods
 @app.route('/', methods=["GET", "POST"])
