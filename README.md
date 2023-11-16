@@ -5,6 +5,12 @@
 * Gabriel Serrano
 * Hashir Mohyuddin
 
+## Contributions
+[Contribution statements](https://docs.google.com/document/d/18cazhAwAzokPHTNtpyJsqL0e_AU12ttewt_k00zch1A/edit?usp=sharing)
+
+## Proposal Google Doc
+[Proposal](https://docs.google.com/document/d/1EMosgX3EyqRZcqKO4CLlkRlngCQlLJtUV23HQfeRJmA/edit)
+
 ## Project Overview
 
 Bird classification is a fascinating application of Artificial Intelligence (AI) and Machine Learning (ML). It involves training a model to recognize and classify various bird species based on their images. This project leverages two extensive datasets to create a robust bird classification system. We will evaluate the performance of various models and build a web application to showcase our findings.
@@ -18,7 +24,7 @@ Bird classification is a fascinating application of Artificial Intelligence (AI)
 
 1. Data Preprocessing: We will perform data preprocessing, including image resizing, augmentation, and labeling, to prepare the datasets for training.
 2. Model Development: We will train deep learning models, to classify bird species based on the images from the datasets.
-3. Model Evaluation: We will evaluate each models' performance using various metrics, including
+3. Model Evaluation: We will evaluate each model's performance using various metrics, including
    1. accuracy
    2. precision
    3. recall
