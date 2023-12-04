@@ -1,8 +1,36 @@
-<!--Load base template content-->
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        {{ site_title }}
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</head>
 
-<!--Insert new content for this page/template specifically-->
-{% block content %}
-    <h1>Index.html's New Content</h1>
-
-{% endblock %}
+<body>
+    <div class="container">
+        <h1>Bird Classification Project</h1>
+        <img id="inputImage" width="300" alt="inputImage"/>
+        <p>Classification: {{ classification }}</p>
+        <form action="{{ url_for('predict') }}" method="POST">
+            <label>Model Choice:
+                <select name="modelChoice">
+                    <option value="pytorch">Pytorch</option>
+                    <option value="tensorflow">Tensorflow</option>
+                    <option value="YOLO">YOLO</option>
+                </select>
+            </label>
+                <p id="classification"></p>
+                <input
+                        type="file"
+                        id="imageFile"
+                        name="imageFile"
+                        accept="image/jpg, image/jpeg, image/png"
+                        onchange="loadFile(event)"
+                >
+                <button type="submit">Classify Bird</button>
+        </form>
+    </div>
+</body>
+</html>
