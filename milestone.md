@@ -4,7 +4,11 @@ So far the team has completed a number of tasks such as creating a repository, w
 
 # Flask application
 
-//TODO: Gabe add details on the Flask app
+The application is currently setup as a Flask application which uses the Python programming language as the backend of the web application. Using static templates, Flask renders web pages and easily handles REST API calls. Furthermore, using Flask allows us to directly make inferences from our trained machine learning models due to the Python backend.
+
+The front end is currently a basic implementation of a form which allows the user to upload the image they want to classify, choose which model infrastructure they want to use, and classify the input image based on their selected model infrastructure.
+
+![image](https://github.com/josephWaldron/AI-ML-Project/assets/71295574/5437a88f-71e6-4eb5-a839-e9e74d20f0ae)
 
 # Creating a Repository
 
