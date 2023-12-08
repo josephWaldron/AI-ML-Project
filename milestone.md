@@ -85,6 +85,7 @@ This will get up the images to be used in a model.
 The first model we tried is Resnet50. Resnet50 is a convolutional neural network that is 50 layers deep. It is trained on more than a million images from the ImageNet database. The results for 100 epochs are shown below:
 ![ResnetChart1](images/resnetc1.png)
 ![ResnetChart2](images/resnetc2.png)
+
 With a final result on the test dataset:
 Accuracy:  0.588190495967865
 Loss:  4.657804489135742
@@ -93,6 +94,7 @@ Loss:  4.657804489135742
 The second model we tried is VGG16. VGG16 is a convolutional neural network that is 16 layers deep. It is trained on more than a million images from the ImageNet database. The results for 100 epochs are shown below:
 ![VGGChart1](images/vggc1.png)
 ![VGGChart2](images/vggc2.png)
+
 With a final result on the test dataset:
 Accuracy:  0.0019047618843615055
 Loss:  6.271306037902832
@@ -101,6 +103,7 @@ Loss:  6.271306037902832
 The third model we tried is InceptionV3. InceptionV3 is a convolutional neural network that is 48 layers deep. It is trained on more than a million images from the ImageNet database. The results for 100 epochs are shown below:
 ![InceptionChart1](images/inceptionc1.png)
 ![InceptionChart2](images/inceptionc2.png)
+
 With a final result on the test dataset:
 Accuracy:  0.6925714015960693
 Loss:  1.7439324855804443
