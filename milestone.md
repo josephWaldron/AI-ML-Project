@@ -2,6 +2,10 @@
 
 So far the team has completed a number of tasks such as creating a repository, writing a project proposal, and creating a basic Flask application. The team has also found a dataset for the project and has begun to train a model with.
 
+# Creating a Repository
+
+The first step in the project was to create a repository. The repository was created on GitHub and is linked [here](https://github.com/josephWaldron/AI-ML-Project) The repository was then cloned to the local machine of each team member to allow for easy collaboration.
+
 # Flask application
 
 The application is currently setup as a Flask application which uses the Python programming language as the backend of the web application. Using static templates, Flask renders web pages and easily handles REST API calls. Furthermore, using Flask allows us to directly make inferences from our trained machine learning models due to the Python backend.
@@ -10,9 +14,6 @@ The front end is currently a basic implementation of a form which allows the use
 
 ![image](https://github.com/josephWaldron/AI-ML-Project/assets/71295574/5437a88f-71e6-4eb5-a839-e9e74d20f0ae)
 
-# Creating a Repository
-
-The first step in the project was to create a repository. The repository was created on GitHub and is linked [here](https://github.com/josephWaldron/AI-ML-Project) The repository was then cloned to the local machine of each team member to allow for easy collaboration.
 
 # Dataset choice and preprocessing
 
