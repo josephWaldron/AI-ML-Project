@@ -9,3 +9,12 @@
 | Hashir Mohyuddin | 33.3%  | Contributed to the final draft of the project proposal.Found a dataset for the project. |
 | <br/>            | <br/>  | <br/>                                                                                   |
 | Total            | 100%   | <br/>                                                                                   |
+
+# Milestone 1
+| Name             | %      | Specific activities carried out for this assignment                                     |
+| ---------------- | ------ | --------------------------------------------------------------------------------------- |
+| Gabriel Serrano  | 33.3%3 |                 |
+| Joseph Waldron   | 33.3%  | Created tensorflow models and trained them                                              |
+| Hashir Mohyuddin | 33.3%  |  |
+| <br/>            | <br/>  | <br/>                                                                                   |
+| Total            | 100%   | <br/>                                                                                |
