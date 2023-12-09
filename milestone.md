@@ -1,4 +1,3 @@
-[Google Drive Link]()
 
 So far the team has completed a number of tasks such as creating a repository, writing a project proposal, and creating a basic Flask application. The team has also found a dataset for the project and has begun to train a model with.
 
