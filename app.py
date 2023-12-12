@@ -24,12 +24,13 @@ def view_home():
 @app.route('/predict', methods=["POST"])
 def predict():
     image_file = request.form["imageFile"]
+    framework_choice = request.form["frameworkChoice"]
     model_choice = request.form["modelChoice"]
 
     # Get result based on model choice
-    if model_choice == "pytorch":
+    if framework_choice == "pytorch":
         classification = get_pytorch_prediction(image_file)
-    elif model_choice == "tensorflow":
+    elif framework_choice == "tensorflow":
         classification = get_tf_prediction(image_file)
     else:
         classification = get_yolo_prediction(image_file)
