@@ -3,3 +3,4 @@ __pycache*
 archive.zip
 data
 models
+/pytorch/archive/

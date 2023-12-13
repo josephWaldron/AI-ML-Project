@@ -14,11 +14,19 @@
         <img id="inputImage" width="300" alt="inputImage"/>
         <p>Classification: {{ classification }}</p>
         <form action="{{ url_for('predict') }}" method="POST">
-            <label>Model Choice:
-                <select name="modelChoice">
+            <label>Framework Choice:
+                <select name="frameworkChoice">
                     <option value="pytorch">Pytorch</option>
                     <option value="tensorflow">Tensorflow</option>
-                    <option value="YOLO">YOLO</option>
+                    <option value="MxNet">MxNet</option>
+                </select>
+            </label>
+            <br>
+            <label>Model Choice:
+                <select name="modelChoice">
+                    <option value="ResNet50">ResNet50</option>
+                    <option value="VGG16">VGG16</option>
+                    <option value="InceptionV3">InceptionV3</option>
                 </select>
             </label>
                 <p id="classification"></p>
