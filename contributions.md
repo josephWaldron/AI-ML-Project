@@ -19,3 +19,13 @@
 | Hashir Mohyuddin | 33.3%  | Worked/Troubleshoot setting up MXNet framework                                           |
 | <br/>            | <br/>  | <br/>                                                                                    |
 | Total            | 100%   | <br/>                                                                                    |
+
+# Final Report
+
+| Name             | %      | Specific activities carried out for this assignment                                      |
+| ---------------- | ------ | ---------------------------------------------------------------------------------------- |
+| Gabriel Serrano  | 33.3%3 | XX |
+| Joseph Waldron   | 33.3%  | Contributed to paper, produced TF graphs, created final ipynb file                       |
+| Hashir Mohyuddin | 33.3%  | XX                                          |
+| <br/>            | <br/>  | <br/>                                                                                    |
+| Total            | 100%   | <br/>                                                                                    |
